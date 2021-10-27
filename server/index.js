@@ -25,10 +25,3 @@ app.use("/contacts", contactRoutes);
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
 
-/**
- * next thing we gotta do is prepare this server to work in the cloud
- * 
- * we're going to deploy it using this, https://cloud.google.com/run
- * 
- * so gwaan on de page, press get started nd signup for a free account. you gon have to attach your card but they have a free tier
-*/
